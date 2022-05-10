@@ -1,0 +1,44 @@
+info:May-09-2022 19:19:52.271:the server go on 3015
+info:May-09-2022 19:24:14.567:the server go on 3015
+info:May-09-2022 19:26:44.144:the server go on 3015
+info:May-09-2022 19:27:16.693:the server go on 3015
+info:May-09-2022 19:28:36.914:the server go on 3015
+info:May-09-2022 19:29:13.600:the server go on 3015
+info:May-09-2022 19:32:12.983:the server go on 3015
+error:May-09-2022 19:34:20.759:ENOENT: no such file or directory, stat 'M:\פרויקט גמר\nodeFinalProject\static\HTML\404.html'
+error:May-09-2022 19:34:20.759:ENOENT: no such file or directory, stat 'M:\פרויקט גמר\nodeFinalProject\static\HTML\404.html'
+info:May-09-2022 20:04:39.565:the server go on 3015
+error:May-09-2022 20:08:44.754:nurse validation failed: password: Path `password` is required., lastName: Path `lastName` is required., firstName: Path `firstName` is required.
+
+info:May-10-2022 13:31:09.191:the server go on 3015
+error:May-10-2022 13:33:49.303:nurse validation failed: password: Path `password` is required., lastName: Path `lastName` is required., firstName: Path `firstName` is required.
+error:May-10-2022 13:33:49.303:nurse validation failed: password: Path `password` is required., lastName: Path `lastName` is required., firstName: Path `firstName` is required.
+error:May-10-2022 13:44:08.603:nurse validation failed: password: Path `password` is required., lastName: Path `lastName` is required., firstName: Path `firstName` is required.
+error:May-10-2022 13:44:08.603:nurse validation failed: password: Path `password` is required., lastName: Path `lastName` is required., firstName: Path `firstName` is required.
+error:May-10-2022 13:49:12.072:nurse validation failed: password: Path `password` is required., lastName: Path `lastName` is required., firstName: Path `firstName` is required.
+error:May-10-2022 13:49:12.072:nurse validation failed: password: Path `password` is required., lastName: Path `lastName` is required., firstName: Path `firstName` is required.
+error:May-10-2022 13:49:14.528:nurse validation failed: password: Path `password` is required., lastName: Path `lastName` is required., firstName: Path `firstName` is required.
+error:May-10-2022 13:49:14.528:nurse validation failed: password: Path `password` is required., lastName: Path `lastName` is required., firstName: Path `firstName` is required.
+error:May-10-2022 13:54:49.365:nurse validation failed: password: Path `password` is required., lastName: Path `lastName` is required., firstName: Path `firstName` is required.
+error:May-10-2022 13:54:49.365:nurse validation failed: password: Path `password` is required., lastName: Path `lastName` is required., firstName: Path `firstName` is required.
+info:May-10-2022 13:55:13.416:the server go on 3015
+info:May-10-2022 13:57:54.594:the server go on 3015
+error:May-10-2022 13:58:47.424:nurse validation failed: password: Path `password` is required., lastName: Path `lastName` is required., firstName: Path `firstName` is required.
+error:May-10-2022 13:58:47.424:nurse validation failed: password: Path `password` is required., lastName: Path `lastName` is required., firstName: Path `firstName` is required.
+info:May-10-2022 14:01:08.010:the server go on 3015
+error:May-10-2022 14:01:36.957:E11000 duplicate key error collection: finalProjectT&S.nurses index: email_1 dup key: { : "t@gmail.com" }
+error:May-10-2022 14:01:36.957:E11000 duplicate key error collection: finalProjectT&S.nurses index: email_1 dup key: { : "t@gmail.com" }
+info:May-10-2022 14:42:02.767:the server go on 3015
+info:May-10-2022 14:55:39.665:the server go on 3015
+error:May-10-2022 15:21:30.561:nurse validation failed: lastName: Path `lastName` is required., phoneNumber: Path `phoneNumber` is required.
+error:May-10-2022 15:21:30.561:nurse validation failed: lastName: Path `lastName` is required., phoneNumber: Path `phoneNumber` is required.
+error:May-10-2022 15:42:06.942:E11000 duplicate key error collection: finalProjectT&S.nurses index: email_1 dup key: { : "t@gmail.com" }
+error:May-10-2022 15:42:06.942:E11000 duplicate key error collection: finalProjectT&S.nurses index: email_1 dup key: { : "t@gmail.com" }
+info:May-10-2022 15:50:19.767:the server go on 3015
+info:May-10-2022 17:55:20.262:the server go on 3015
+info:May-10-2022 17:56:45.717:the server go on 3015
+info:May-10-2022 18:00:16.890:the server go on 3015
+error:May-10-2022 18:10:52.960:ENOENT: no such file or directory, stat 'M:\פרויקט גמר\nodeFinalProject\static\HTML\404.html'
+error:May-10-2022 18:10:52.960:ENOENT: no such file or directory, stat 'M:\פרויקט גמר\nodeFinalProject\static\HTML\404.html'
+error:May-10-2022 18:11:00.654:ENOENT: no such file or directory, stat 'M:\פרויקט גמר\nodeFinalProject\static\HTML\404.html'
+error:May-10-2022 18:11:00.654:ENOENT: no such file or directory, stat 'M:\פרויקט גמר\nodeFinalProject\static\HTML\404.html'
