@@ -1,58 +1,62 @@
-const db=require('../db/db');
-const nurseModel=require('../models/nurse');
+const db = require('../db/db');
+const nurseModel = require('../models/nurse');
 const { ObjectId } = require('mongodb');
 
-exports.getByNameAndPassword=async function(req,res,next){
-    try{
-        const userName=req.query.userName;
-        const password=req.query.password;
-        const nurse= await nurseModel.findOne({userName:userName, password: password });
+exports.getByNameAndPassword = async function (req, res, next) {
+    try {
+        const userName = req.query.userName;
+        const password = req.query.password;
+        const nurse = await nurseModel.findOne({ userName: userName, password: password });
+        console.log(nurse, "nurse");
         res.send(nurse);
     }
-    catch(error){
+    catch (error) {
         next(error);
     }
 }
 
-exports.addNurse = async function (req, res,next) {
+exports.addNurse = async function (req, res, next) {
     try {
         const nurse = new nurseModel(req.body);
         const inserted = await nurse.save();
         res.send(inserted);
     }
     catch (error) {
-        next(error);    }
+        next(error);
+    }
 }
 
-exports.updateNurse = async function (req, res,next) {
-    if(req.body){
+exports.updateNurse = async function (req, res, next) {
+    if (req.body) {
         try {
             const id = ObjectId(req.params.id);
-            const {firstName,lastName,userName,password,email,phoneNumber} = req.body;
-            const data={
-                firstName:firstName,
-                lastName:lastName,
-                userName:userName,
-                email:email,
-                password:password,
-                phoneNumber:phoneNumber
+            const { firstName, lastName, userName, password, email, phoneNumber } = req.body;
+            const data = {
+                firstName: firstName,
+                lastName: lastName,
+                userName: userName,
+                email: email,
+                password: password,
+                phoneNumber: phoneNumber
             }
-            const updateNurse = await nurseModel.findByIdAndUpdate(id,data,{
-                new:true
+            const updateNurse = await nurseModel.findByIdAndUpdate(id, data, {
+                new: true
             });
             res.send(updateNurse);
         }
         catch (error) {
-            next(error);        }
-    } 
+            next(error);
+        }
+    }
 }
 
-exports.deleteNurse = async function (req, res ,next) {
+exports.deleteNurse = async function (req, res, next) {
     try {
         const id = ObjectId(req.params.id);
         const nurseToDelete = await nurseModel.deleteOne(id);
         res.send(`removed`);
     }
     catch (error) {
-        next(error);    }
+        next(error);
+    }
 }

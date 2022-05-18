@@ -42,3 +42,83 @@ error:May-10-2022 18:10:52.960:ENOENT: no such file or directory, stat 'M:\פר�
 error:May-10-2022 18:10:52.960:ENOENT: no such file or directory, stat 'M:\פרויקט גמר\nodeFinalProject\static\HTML\404.html'
 error:May-10-2022 18:11:00.654:ENOENT: no such file or directory, stat 'M:\פרויקט גמר\nodeFinalProject\static\HTML\404.html'
 error:May-10-2022 18:11:00.654:ENOENT: no such file or directory, stat 'M:\פרויקט גמר\nodeFinalProject\static\HTML\404.html'
+info:May-11-2022 10:48:39.122:the server go on 3015
+error:May-11-2022 10:55:42.131:ENOENT: no such file or directory, stat 'M:\פרויקט גמר\nodeFinalProject\static\HTML\404.html'
+error:May-11-2022 10:55:42.131:ENOENT: no such file or directory, stat 'M:\פרויקט גמר\nodeFinalProject\static\HTML\404.html'
+info:May-11-2022 10:58:13.890:the server go on 3015
+info:May-11-2022 13:03:02.499:the server go on 3015
+info:May-11-2022 13:06:10.059:the server go on 3015
+info:May-11-2022 13:09:20.190:the server go on 3015
+info:May-11-2022 13:11:46.882:the server go on 3015
+info:May-11-2022 13:12:02.310:the server go on 3015
+info:May-11-2022 13:12:10.492:the server go on 3015
+info:May-11-2022 13:23:55.083:the server go on 3015
+error:May-11-2022 13:25:04.622:babyModel.find is not a function
+error:May-11-2022 13:25:04.622:babyModel.find is not a function
+error:May-11-2022 13:25:06.327:babyModel.find is not a function
+error:May-11-2022 13:25:06.327:babyModel.find is not a function
+error:May-11-2022 13:25:07.475:babyModel.find is not a function
+error:May-11-2022 13:25:07.475:babyModel.find is not a function
+error:May-11-2022 13:25:08.585:babyModel.find is not a function
+error:May-11-2022 13:25:08.585:babyModel.find is not a function
+error:May-11-2022 13:25:11.409:babyModel.find is not a function
+error:May-11-2022 13:25:11.409:babyModel.find is not a function
+error:May-11-2022 13:25:11.703:babyModel.find is not a function
+error:May-11-2022 13:25:11.703:babyModel.find is not a function
+error:May-11-2022 13:25:16.134:babyModel.find is not a function
+error:May-11-2022 13:25:16.134:babyModel.find is not a function
+info:May-11-2022 13:26:33.635:the server go on 3015
+info:May-11-2022 13:27:03.316:the server go on 3015
+info:May-11-2022 13:28:01.147:the server go on 3015
+info:May-11-2022 13:28:31.278:the server go on 3015
+info:May-11-2022 13:29:15.630:the server go on 3015
+info:May-11-2022 13:30:39.461:the server go on 3015
+info:May-11-2022 13:33:14.392:the server go on 3015
+info:May-11-2022 13:33:26.919:the server go on 3015
+info:May-11-2022 13:34:07.286:the server go on 3015
+info:May-11-2022 13:38:36.942:the server go on 3015
+info:May-11-2022 13:43:05.503:the server go on 3015
+info:May-11-2022 16:29:13.562:the server go on 3016
+error:May-11-2022 16:30:14.497:ENOENT: no such file or directory, stat 'M:\פרויקט גמר\nodeFinalProject\static\HTML\404.html'
+error:May-11-2022 16:30:14.497:ENOENT: no such file or directory, stat 'M:\פרויקט גמר\nodeFinalProject\static\HTML\404.html'
+error:May-11-2022 16:30:38.225:ENOENT: no such file or directory, stat 'M:\פרויקט גמר\nodeFinalProject\static\HTML\404.html'
+error:May-11-2022 16:30:38.225:ENOENT: no such file or directory, stat 'M:\פרויקט גמר\nodeFinalProject\static\HTML\404.html'
+error:May-11-2022 16:30:56.737:ENOENT: no such file or directory, stat 'M:\פרויקט גמר\nodeFinalProject\static\HTML\404.html'
+error:May-11-2022 16:30:56.737:ENOENT: no such file or directory, stat 'M:\פרויקט גמר\nodeFinalProject\static\HTML\404.html'
+info:May-11-2022 16:32:40.296:the server go on 3016
+info:May-11-2022 16:37:12.600:the server go on 3016
+info:May-11-2022 16:38:13.516:the server go on 3016
+error:May-11-2022 16:39:38.899:E11000 duplicate key error collection: finalProjectT&S.babies index: email_1 dup key: { : null }
+error:May-11-2022 16:39:38.899:E11000 duplicate key error collection: finalProjectT&S.babies index: email_1 dup key: { : null }
+error:May-11-2022 16:40:20.623:E11000 duplicate key error collection: finalProjectT&S.babies index: email_1 dup key: { : null }
+error:May-11-2022 16:40:20.623:E11000 duplicate key error collection: finalProjectT&S.babies index: email_1 dup key: { : null }
+error:May-11-2022 16:45:47.993:E11000 duplicate key error collection: finalProjectT&S.babies index: email_1 dup key: { : null }
+error:May-11-2022 16:45:47.993:E11000 duplicate key error collection: finalProjectT&S.babies index: email_1 dup key: { : null }
+error:May-11-2022 16:48:09.014:baby validation failed: motherIdentity: Path `motherIdentity` (`7887878787`) is longer than the maximum allowed length (9).
+error:May-11-2022 16:48:09.014:baby validation failed: motherIdentity: Path `motherIdentity` (`7887878787`) is longer than the maximum allowed length (9).
+error:May-11-2022 16:48:28.218:E11000 duplicate key error collection: finalProjectT&S.babies index: email_1 dup key: { : null }
+error:May-11-2022 16:48:28.218:E11000 duplicate key error collection: finalProjectT&S.babies index: email_1 dup key: { : null }
+info:May-11-2022 16:49:13.384:the server go on 3016
+info:May-11-2022 16:50:57.485:the server go on 3016
+info:May-11-2022 16:51:19.296:the server go on 3016
+info:May-11-2022 16:51:34.921:the server go on 3016
+info:May-11-2022 16:53:41.747:the server go on 3016
+error:May-11-2022 16:54:28.971:E11000 duplicate key error collection: finalProjectT&S.babies index: email_1 dup key: { : null }
+error:May-11-2022 16:54:28.971:E11000 duplicate key error collection: finalProjectT&S.babies index: email_1 dup key: { : null }
+info:May-11-2022 16:56:33.193:the server go on 3016
+error:May-11-2022 16:56:55.620:E11000 duplicate key error collection: finalProjectT&S.babies index: email_1 dup key: { : null }
+error:May-11-2022 16:56:55.620:E11000 duplicate key error collection: finalProjectT&S.babies index: email_1 dup key: { : null }
+info:May-11-2022 17:02:15.365:the server go on 3016
+info:May-11-2022 18:45:09.113:the server go on 3016
+info:May-11-2022 18:45:34.245:the server go on 3016
+info:May-15-2022 11:37:45.589:the server go on 3016
+info:May-15-2022 12:15:37.805:the server go on 3016
+info:May-15-2022 17:58:36.323:the server go on 3016
+info:May-15-2022 18:29:40.565:the server go on 3016
+info:May-15-2022 18:36:10.465:the server go on 3016
+info:May-15-2022 18:54:25.837:the server go on 3016
+info:May-15-2022 19:46:14.383:the server go on 3016
+info:May-15-2022 19:51:42.747:the server go on 3016
+info:May-15-2022 19:59:36.981:the server go on 3016
+info:May-17-2022 14:11:52.075:the server go on 3016
+info:May-18-2022 11:00:19.829:the server go on 3016

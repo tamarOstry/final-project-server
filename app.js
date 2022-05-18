@@ -18,11 +18,11 @@ app.use(function(req, res, next) {
 });
 
 app.use('/nurse', nurseRoute);
-app.use('baby',babyRoute);
+app.use('/baby',babyRoute);
 
-app.use((req,res)=>{
-  res.status(404).sendFile(path.join(__dirname,'./static/HTML/404.html'));
-})
+// app.use((req,res)=>{
+//   res.status(404).sendFile(path.join(__dirname,'./static/HTML/404.html'));
+// })
 
 app.use((err, req, res, next) => {
     logger.error(err.message)
