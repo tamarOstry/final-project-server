@@ -122,3 +122,24 @@ info:May-15-2022 19:51:42.747:the server go on 3016
 info:May-15-2022 19:59:36.981:the server go on 3016
 info:May-17-2022 14:11:52.075:the server go on 3016
 info:May-18-2022 11:00:19.829:the server go on 3016
+info:May-18-2022 12:14:27.101:the server go on 3016
+info:May-18-2022 12:30:10.935:the server go on 3016
+info:May-23-2022 13:17:56.460:the server go on 3016
+info:May-23-2022 15:02:33.405:the server go on 3016
+error:May-23-2022 15:17:37.976:E11000 duplicate key error collection: finalProjectT&S.nurses index: email_1 dup key: { : "tk@gmail.com" }
+error:May-23-2022 15:17:37.976:E11000 duplicate key error collection: finalProjectT&S.nurses index: email_1 dup key: { : "tk@gmail.com" }
+info:May-23-2022 15:45:35.685:the server go on 3016
+error:May-23-2022 15:58:58.501:nurse validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., phoneNumber: Path `phoneNumber` is required.
+error:May-23-2022 15:58:58.501:nurse validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., phoneNumber: Path `phoneNumber` is required.
+error:May-23-2022 15:59:48.516:nurse validation failed: firstName: Path `firstName` (`a`) is shorter than the minimum allowed length (2).
+error:May-23-2022 15:59:48.516:nurse validation failed: firstName: Path `firstName` (`a`) is shorter than the minimum allowed length (2).
+info:May-23-2022 16:19:18.439:the server go on 3016
+info:May-23-2022 16:20:47.706:the server go on 3016
+info:May-23-2022 16:21:14.558:the server go on 3016
+info:May-23-2022 16:22:20.116:the server go on 3016
+info:May-23-2022 16:22:25.088:the server go on 3016
+info:May-23-2022 16:22:31.958:the server go on 3016
+info:May-23-2022 16:22:52.418:the server go on 3016
+info:May-23-2022 16:24:31.737:the server go on 3016
+info:May-23-2022 16:25:03.725:the server go on 3016
+info:May-23-2022 16:25:14.840:the server go on 3016

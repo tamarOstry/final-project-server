@@ -90,7 +90,7 @@ const jaundice = new Schema < careDetailsInterface > ({
     }
 });
 
-const LengthWeight = new Schema < careDetailsInterface > ({
+const lengthWeight = new Schema < careDetailsInterface > ({
     dateTime: {
         type: Date,
         default: new Date()

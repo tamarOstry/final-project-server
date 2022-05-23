@@ -7,7 +7,6 @@ exports.getAll = async function (req, res,next) {
         const baby = await babyModel.find();
         const hospitalizationNumbers=[];
         baby.forEach(b => {
-            // hospitalizationNumbers.push({ label: b.hospitalizationNumber, year: 1994 },);
             hospitalizationNumbers.push( b.hospitalizationNumber,);
         });
         res.send(hospitalizationNumbers);
@@ -15,6 +14,18 @@ exports.getAll = async function (req, res,next) {
     catch (error) {
         next(error);    }
 }
+
+
+exports.getBaby = async function (req, res,next) {
+    try {
+        const babyId=req.params.id;
+        const baby = await babyModel.findOne({hospitalizationNumber:babyId});
+        res.send(baby);
+    }
+    catch (error) {
+        next(error);    }
+}
+
 
 exports.addBaby = async function (req, res,next) {
     try {

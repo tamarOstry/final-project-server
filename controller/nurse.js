@@ -7,7 +7,6 @@ exports.getByNameAndPassword = async function (req, res, next) {
         const userName = req.query.userName;
         const password = req.query.password;
         const nurse = await nurseModel.findOne({ userName: userName, password: password });
-        console.log(nurse, "nurse");
         res.send(nurse);
     }
     catch (error) {
