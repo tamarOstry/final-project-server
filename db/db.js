@@ -1,4 +1,6 @@
 const mongoose=require('mongoose');
+require('dotenv').config();
+const {CONNECTION_STRING} = process.env;
 
 class db{
 
@@ -6,7 +8,7 @@ class db{
    }
 
    async connect(){
-       const url= 'mongodb://srv1:27017/finalProjectT&S';
+       const url= CONNECTION_STRING;
        await mongoose.connect(url);
        console.log(`connected seccesffuly`);
    };

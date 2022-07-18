@@ -6,6 +6,7 @@
     "mongoose": "^6.2.8",
     "mongoose-schema-extend": "^0.2.2",
     "nodemon": "^2.0.15",
+    "package": "^1.0.1",
     "validator": "^13.7.0",
     "winston": "^3.7.2",
     "winston-mongodb": "^5.0.7"
